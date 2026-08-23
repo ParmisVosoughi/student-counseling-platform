@@ -1,0 +1,3 @@
+from django.contrib import admin
+from .models import Student,WeeklyPerformance,AssessmentResult,AssessmentResultParameter,StudentChallenge,ProgramLogicCategory,ProgramLogicReview,ProgramLogicReviewStatusHistory,Activity
+for m in [Student,WeeklyPerformance,AssessmentResult,AssessmentResultParameter,StudentChallenge,ProgramLogicCategory,ProgramLogicReview,ProgramLogicReviewStatusHistory,Activity]: admin.site.register(m)
